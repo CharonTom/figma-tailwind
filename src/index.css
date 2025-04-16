@@ -7,39 +7,46 @@
 /* On utilise thème pour paramétrer les couleurs, polices, fonts */
 @theme {
   --font-poppins: "Poppins", sans-serif;
+  --color-primary: #ff708f;
+  --color-secondary: #f97316;
+  --color-tertiary: #fbbf24;
 }
 
 /* On utilise base pour stocker le css basique d'un élément html ( h1, nav, li, section, body ... */
 @layer base {
   body {
-    @apply font-semibold;
+    @apply font-poppins text-[16px];
   }
 
   h1 {
-    @apply text-2xl font-semibold;
+    @apply text-[42px] font-semibold py-[40px];
   }
 
   h2 {
-    @apply text-xl font-semibold;
+    @apply text-[30px] font-semibold;
   }
 
   h3 {
-    @apply text-xl font-semibold;
+    @apply text-[20px] font-semibold;
   }
 
   a {
-    @apply hover:text-blue-700 cursor-pointer;
+    @apply cursor-pointer;
   }
 }
 
 /* Components permet de stocker le css d'un composant dans une seul propriété */
 @layer components {
-  .btn-primary {
-    @apply bg-blue-500 text-white font-semibold py-1 px-2 rounded text-xs;
+  .btn-pink {
+    @apply bg-primary text-white py-2 px-3 rounded text-xs;
   }
 
-  .btn-secondary {
-    @apply bg-red-500 text-white font-semibold py-1 px-2 rounded text-xs;
+  .btn-blue {
+    @apply bg-blue-500 text-white py-2 px-3 rounded text-xs;
+  }
+
+  .btn-red {
+    @apply bg-[#B1202E] text-white py-2 px-3 rounded text-xs;
   }
 }
 

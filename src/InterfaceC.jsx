@@ -13,7 +13,7 @@ const InterfaceC = () => {
           <h1 className="">Suivis de formation : Sécurisation d'une API</h1>
         </div>
 
-        <button className="btn-primary">Partager le QR code d'évalution</button>
+        <button className="btn-pink">Partager le QR code d'évalution</button>
         <div className="mt-8">
           <LigneC />
           <LigneC />
