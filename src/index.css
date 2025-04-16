@@ -19,7 +19,7 @@
   }
 
   h1 {
-    @apply text-[42px] font-semibold py-[40px];
+    @apply text-[42px] font-semibold py-[35px];
   }
 
   h2 {

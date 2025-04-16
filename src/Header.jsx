@@ -3,7 +3,7 @@ import profilPic from "./assets/profil-pic.jpg"; // Make sure to import the imag
 
 const Header = () => {
   return (
-    <div className="px-6 py-2 bg-primary text-white flex-between text-sm">
+    <header className="px-6 py-2 bg-primary text-white flex-between text-sm">
       <div className="flex-center gap-x-4">
         <div className="flex-center">
           <img src={profilPic} alt="logo" className="w-12 h-12 rounded-full" />
@@ -15,7 +15,7 @@ const Header = () => {
         <a>Progression</a>
         <a>Se déconnecter</a>
       </div>
-    </div>
+    </header>
   );
 };
 
