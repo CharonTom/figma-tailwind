@@ -5,7 +5,7 @@ const LigneC = () => {
   return (
     <div className="flex gap-x-20 px-8 py-3 border-b border-gray-800">
       <div>
-        <RiCheckboxBlankCircleLine />
+        <RiCheckboxBlankCircleLine className="text-xl text-primary" />
       </div>
       <p>Nom Prénom</p>
       <p>B3 Dev</p>

@@ -8,14 +8,14 @@ const InterfaceB = () => {
   return (
     <>
       <Header />
-      <section className="p-12 px-36">
+      <section className="py-16 px-36 mb-16">
         <h1>Cours WebStatique - Lundi 14 Avril : Matin</h1>
         <h2>Salle 202 avec Mr Dupont</h2>
-        <div className="flex-between">
+        <div className="flex justify-between item-start">
           {/* Partie Liste des élèves */}
           <div>
             <div className="flex-col gap-x-1">
-              <div className="mt-4 flex items-center gap-x-1">
+              <div className="flex items-center gap-x-1">
                 <CiUser className="text-4xl" />
                 <h3 className="my-4">Liste des élèves</h3>
               </div>
