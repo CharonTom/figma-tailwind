@@ -12,20 +12,6 @@ const LigneC = () => {
       </div>
       <p>Nom Prénom</p>
       <p>Progression 27%</p>
-      {/* <div className="flex text-xs">
-        <div className="">
-          <FaCheck />
-          signé
-        </div>
-        <div>
-          <RxCross1 />
-          annuler signature
-        </div>
-        <div>
-          <FaEye />
-          voir signature
-        </div>
-      </div> */}
 
       <button className="btn-blue">Envoyer un lien</button>
       {/* <button className="btn-secondary">Signer Manuellement</button> */}
