@@ -18,8 +18,12 @@
     @apply font-poppins text-[16px];
   }
 
+  section {
+    @apply min-h-screen mb-16;
+  }
+
   h1 {
-    @apply text-[42px] font-semibold py-[35px];
+    @apply text-[42px] font-semibold py-[25px];
   }
 
   h2 {
@@ -27,7 +31,7 @@
   }
 
   h3 {
-    @apply text-[20px] font-semibold;
+    @apply text-[20px] font-semibold my-6;
   }
 
   a {
@@ -38,7 +42,7 @@
 /* Components permet de stocker le css d'un composant dans une seul propriété */
 @layer components {
   .btn-pink {
-    @apply bg-primary text-white py-2 px-3 rounded text-xs;
+    @apply bg-primary text-white py-2 px-6 rounded text-xs;
   }
 
   .btn-blue {
@@ -46,7 +50,10 @@
   }
 
   .btn-red {
-    @apply bg-[#B1202E] text-white py-2 px-3 rounded text-xs;
+    @apply bg-[#B1202E] text-white py-2 px-6 rounded text-xs;
+  }
+  .btn-green {
+    @apply bg-[#198754] text-white py-2 px-6 rounded text-xs;
   }
 }
 

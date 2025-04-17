@@ -8,16 +8,16 @@ const InterfaceB = () => {
   return (
     <>
       <Header />
-      <section className="py-16 px-36 mb-16">
+      <section className="py-8 px-36 mb-16">
         <h1>Cours WebStatique - Lundi 14 Avril : Matin</h1>
-        <h2>Salle 202 avec Mr Dupont</h2>
+        <h2 className="mb-16">Salle 202 avec Mr Dupont</h2>
         <div className="flex justify-between item-start">
           {/* Partie Liste des élèves */}
           <div>
             <div className="flex-col gap-x-1">
               <div className="flex items-center gap-x-1">
-                <CiUser className="text-4xl" />
-                <h3 className="my-4">Liste des élèves</h3>
+                <CiUser className="text-3xl" />
+                <h3 className="">Liste des élèves</h3>
               </div>
               <div>
                 <LigneB />
@@ -38,10 +38,10 @@ const InterfaceB = () => {
               <AiOutlineSignature className="text-4xl" />
               <h3>Signatures</h3>
             </div>
-            <div className="bg-pink-50 w-[450px] h-[250px] border rounded-xl flex-center">
+            <div className="bg-pink-100 w-[450px] h-[250px] border rounded-xl flex-center text-[30px] text-gray-500">
               Signez ici...
             </div>
-            <button className="btn-blue w-full my-2 bg-green-800 rounded-xl">
+            <button className="btn-green w-full my-2 rounded-md">
               Valider
             </button>
           </div>

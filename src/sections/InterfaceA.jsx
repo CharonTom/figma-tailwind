@@ -10,13 +10,16 @@ const InterfaceA = () => {
     <>
       <Header />
       <section className="flex flex-col justify-center items-center">
-        <div className="flex-center gap-x-18 p-4">
-          <FaArrowLeft className="text-3xl " />
+        <div className="flex-center gap-x-18">
+          <FaArrowLeft className="text-4xl " />
           <h1 className="">Lundi 14 Avril : Matin</h1>
-          <FaArrowRight className="text-3xl" />
+          <FaArrowRight className="text-4xl" />
         </div>
 
-        <button className="btn-pink">Partager le QR code de signature</button>
+        <button className="btn-pink text-[20px] mb-16">
+          Partager le QR code de signature
+        </button>
+        <div></div>
         <LigneA />
         <LigneA />
         <LigneAVariant />
