@@ -1,9 +1,9 @@
 import React from "react";
-import Header from "./Header";
-import LigneA from "./LigneA";
+import Header from "../components/Header";
+import LigneA from "../components/LigneA";
 import { FaArrowLeft } from "react-icons/fa";
 import { FaArrowRight } from "react-icons/fa";
-import LigneAVariant from "./LigneAVariant";
+import LigneAVariant from "../components/LigneAVariant";
 
 const InterfaceA = () => {
   return (

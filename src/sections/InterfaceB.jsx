@@ -1,8 +1,8 @@
 import React from "react";
-import Header from "./Header";
+import Header from "../components/Header";
 import { CiUser } from "react-icons/ci";
 import { AiOutlineSignature } from "react-icons/ai";
-import LigneB from "./LigneB";
+import LigneB from "../components/LigneB";
 
 const InterfaceB = () => {
   return (

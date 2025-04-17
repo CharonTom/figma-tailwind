@@ -1,6 +1,6 @@
 import React from "react";
-import Header from "./Header";
-import LigneC from "./LigneC";
+import Header from "../components/Header";
+import LigneC from "../components/LigneC";
 import { FaArrowLeft } from "react-icons/fa";
 import { FaArrowRight } from "react-icons/fa";
 

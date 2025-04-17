@@ -1,5 +1,5 @@
 import React from "react";
-import profilPic from "./assets/profil-pic.jpg"; // Make sure to import the image correctly
+import profilPic from "../assets/profil-pic.jpg"; // Make sure to import the image correctly
 
 const Header = () => {
   return (

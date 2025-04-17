@@ -1,5 +1,5 @@
 import React from "react";
-import Header from "./Header";
+import Header from "../components/Header";
 import { FaRegStar } from "react-icons/fa";
 import { FaStar } from "react-icons/fa";
 import { RxQuestionMarkCircled } from "react-icons/rx";
